@@ -1,0 +1,27 @@
+.operatorholder {
+  color: #000000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #ed33bb;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin: auto;
+  width: 120px;
+  height: 80px;
+  padding: 0 20px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.nofade {
+  opacity: 1;
+}
+
+.fade {
+  opacity: 0.2;
+}

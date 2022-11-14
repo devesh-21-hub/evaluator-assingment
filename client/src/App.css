@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #96a5651c;
+}
+.alphabets {
+  height: 150px;
+}
+
+.signs {
+  height: 120px;
+}
+
+.expression {
+  height: 150px;
+  border: 5px dashed #808080;
+}
+
+.messsage {
+  text-transform: capitalize;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  font-size: 1.6rem;
+  color: #8080804b;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.cancel {
+  font-size: 15px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+}
