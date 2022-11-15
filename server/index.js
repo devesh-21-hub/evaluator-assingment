@@ -23,4 +23,4 @@ const server = createServer(app);
 const values = require("./src/routes/values");
 app.use(values);
 
-server.listen(9000 || process.env.PORT);
+server.listen(process.env.PORT || 8000);

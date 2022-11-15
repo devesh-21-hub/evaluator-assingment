@@ -102,7 +102,7 @@ const App = () => {
       thingBeingDragged === "/" ||
       thingBeingDragged === "*"
     ) {
-      setOperator(thingBeingDragged);
+      if (variableOne.letter !== "") setOperator(thingBeingDragged);
     }
   };
 
@@ -177,7 +177,7 @@ const App = () => {
           updateOperator={setOperator}
           text={operator}
           class={operator !== "" ? "nofade" : "fade"}
-          onDrop={drop}
+          onDrop={variableOne.letter !== "" && drop}
           onDragOver={allowDrop}
           onDragEnter={dragEnter}
           onDragLeave={dragLeave}
@@ -187,7 +187,7 @@ const App = () => {
           id={"2"}
           text={variableTwo.letter}
           class={variableTwo.letter !== "" ? "nofade" : "fade"}
-          onDrop={drop}
+          onDrop={operator !== "" && drop}
           onDragOver={allowDrop}
           onDragEnter={dragEnter}
           onDragLeave={dragLeave}
