@@ -26,7 +26,9 @@ const App = () => {
 
   useEffect(() => {
     const fetchFirstData = async (query) => {
-      const response = await fetch(`http://localhost:9000/value/${query}`);
+      const response = await fetch(
+        `https://my-evaluator-app-21.herokuapp.com/value/${query}`
+      );
       const data = await response.json();
 
       setVariableOne((prevValue) => {
@@ -40,7 +42,9 @@ const App = () => {
 
   useEffect(() => {
     const fetchSecondData = async (query) => {
-      const response = await fetch(`http://localhost:9000/value/${query}`);
+      const response = await fetch(
+        `https://my-evaluator-app-21.herokuapp.com/value/${query}`
+      );
       const data = await response.json();
 
       setVariableTwo((prevValue) => {
