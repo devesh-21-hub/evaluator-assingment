@@ -1,7 +1,6 @@
 # evaluator-assingment
 
-Assingment
-Please download the code of this repository in zip format.\
+Download the code of this repository in zip format.\
 Extract the code into a separate folder.\
 Go to that folder in your terminal.\
 This project has basically two folders:
@@ -14,5 +13,3 @@ First of all start the server by going to `server` by writing `cd server` then i
 Now for `client` run `npm i && npm start`. This will start the react server on `http://localhost:3000/` visit that in your browser.
 Now the application is available on `http://localhost:3000/` you can test it.
 Thank you!
-
-Created By: Devesh Kumar, deveshkumar21101@gmail.com, 8084465144.
